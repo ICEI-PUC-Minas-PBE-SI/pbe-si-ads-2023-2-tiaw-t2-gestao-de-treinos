@@ -1,9 +1,9 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`Gestão de Treinos`  
 
 ......  Gestão de Treinos ......
 
-`CURSO` 
+`Análise e desenvolmento de sistemas` 
 
 ......  Análise e desenvolmento de sistemas......
 
