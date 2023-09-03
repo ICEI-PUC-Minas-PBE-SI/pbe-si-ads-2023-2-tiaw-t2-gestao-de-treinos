@@ -57,8 +57,6 @@
 ## Problema
 
 A relação entre as pessoas e a academia nem sempre é direta e descomplicada. Muitos indivíduos enfrentam uma série de desafios ao tentar manter essa conexão. Infelizmente, diante dessas dificuldades, muitos acabam desistindo de investir na sua saúde e bem-estar através do exercício físico.
-Nossa aplicação web de gestão de treino tem como objetivo simplificar essa relação, tornando-a mais acessível a todos. Com o nosso serviço, buscamos eliminar as barreiras que frequentemente desencorajam as pessoas a continuarem com seus treinamentos. Queremos oferecer uma solução que torne a jornada de fitness mais fácil, motivadora e personalizada para cada usuário.
-Com nossa aplicação, pretendemos transformar a maneira como as pessoas abordam o exercício físico, tornando-o mais conveniente, adaptado às suas necessidades individuais e, acima de tudo, sustentável. Estamos comprometidos em apoiar as pessoas em sua busca por um estilo de vida mais saudável e ativo, facilitando a manutenção dessa importante relação com a academia.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
