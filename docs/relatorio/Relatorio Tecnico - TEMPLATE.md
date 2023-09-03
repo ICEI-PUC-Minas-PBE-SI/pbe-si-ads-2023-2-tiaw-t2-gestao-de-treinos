@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Gestão de Treinos ......
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Análise e desenvolmento de sistemas......
 
 ## Participantes
 
@@ -56,7 +56,9 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A relação entre as pessoas e a academia nem sempre é direta e descomplicada. Muitos indivíduos enfrentam uma série de desafios ao tentar manter essa conexão. Infelizmente, diante dessas dificuldades, muitos acabam desistindo de investir na sua saúde e bem-estar através do exercício físico.
+Nossa aplicação web de gestão de treino tem como objetivo simplificar essa relação, tornando-a mais acessível a todos. Com o nosso serviço, buscamos eliminar as barreiras que frequentemente desencorajam as pessoas a continuarem com seus treinamentos. Queremos oferecer uma solução que torne a jornada de fitness mais fácil, motivadora e personalizada para cada usuário.
+Com nossa aplicação, pretendemos transformar a maneira como as pessoas abordam o exercício físico, tornando-o mais conveniente, adaptado às suas necessidades individuais e, acima de tudo, sustentável. Estamos comprometidos em apoiar as pessoas em sua busca por um estilo de vida mais saudável e ativo, facilitando a manutenção dessa importante relação com a academia.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -75,9 +77,8 @@
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
+Queremos oferecer uma solução que torne a jornada fitness mais fácil, motivadora e personalizada para cada usuário.
+Com nossa aplicação, pretendemos transformar a maneira como as pessoas abordam o exercício físico, tornando-o mais conveniente, adaptado às suas necessidades individuais e, acima de tudo, sustentável. 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
 > apresentado acima. Apresente também alguns (pelo menos 2) objetivos
@@ -89,7 +90,7 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Apoiar as pessoas em sua busca por um estilo de vida mais saudável e ativo, facilitando a manutenção dessa importante relação com a academia.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -105,7 +106,7 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando entre 14 e 60 anos, que são frequentadores assíduos de academias.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
