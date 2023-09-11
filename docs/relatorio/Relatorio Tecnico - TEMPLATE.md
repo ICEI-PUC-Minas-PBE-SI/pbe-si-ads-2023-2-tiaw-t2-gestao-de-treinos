@@ -136,7 +136,7 @@ Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando en
 > 
  ![Exemplo de Persona](images/persona1.png)
  
->  **Mapa de Empatia - José**
+   **Mapa de Empatia - José**
 ![Mapa de Empatia](images/mapa-empatia.png)
 
 
