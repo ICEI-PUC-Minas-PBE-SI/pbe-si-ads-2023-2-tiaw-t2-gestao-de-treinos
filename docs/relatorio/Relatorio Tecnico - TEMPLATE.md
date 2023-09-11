@@ -133,12 +133,14 @@ Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando en
 
 José da Silva tem 23 anos e deseja ter uma vida mais saudável praticando musculação 
 
-> **Persona 1 - José**
-> 
+ **Persona 1 - José**
  ![Exemplo de Persona](images/persona1.png)
  
    **Mapa de Empatia - José**
 ![Mapa de Empatia](images/mapa-empatia.png)
+
+   **Mapa de Empatia - Maria**
+![Mapa de Empatia](images/persona_2.png)
 
 
 ## Histórias de Usuários
