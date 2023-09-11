@@ -288,7 +288,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > **Exemplo**:
 > 
-> ![Exemplo de Wireframe](images/persona.png)
+![Exemplo de Wireframe](images/persona.png)
 
 
 # Metodologia
