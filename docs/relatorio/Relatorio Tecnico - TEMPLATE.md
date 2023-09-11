@@ -145,10 +145,13 @@ José da Silva tem 23 anos e deseja ter uma vida mais saudável praticando muscu
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO...  `FUNCIONALIDADE`   |PARA...  `MOTIVO/VALOR`                       |
+|--------------------|--------------------------------------|----------------------------------------------|
+| Usuário do sistema | Personalizar meu treino              | Facilitar minha adesão a rotina              |
+|                    | Ver qual a utilidade do exercicio    | Saber qual musculo é trabalhado              |
+|                    | Anotar a carga utilizada no exercicio| Ter conhecimento da progressão de carga      |
+|                    | Ver a lista de exercicio da semana   | Saber o que treinar no dia atual e seguintes |
+|                    | Calcular os macros alimentares       | Saber a dieta a seguir e me alimentar melhor |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
