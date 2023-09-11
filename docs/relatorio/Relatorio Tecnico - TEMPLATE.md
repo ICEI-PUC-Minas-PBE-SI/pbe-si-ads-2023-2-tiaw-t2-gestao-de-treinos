@@ -243,8 +243,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## User Flow
 
 ......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-[gestao de treinos trabalho.pdf](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/files/12570850/gestao.de.treinos.trabalho.pdf)
 
+ ![Exemplo de UserFlow](images/userflow.png)
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
 > para alinhar os caminhos e as possíveis ações que o usuário pode
