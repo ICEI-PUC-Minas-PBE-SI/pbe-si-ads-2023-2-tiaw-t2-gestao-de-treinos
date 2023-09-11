@@ -152,7 +152,7 @@ Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando en
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
+> ![Exemplo de Persona](../imagens/mapa-empatia.png)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
