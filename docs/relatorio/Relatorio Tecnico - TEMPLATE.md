@@ -291,7 +291,6 @@ Parte que conta um pouco sobre o site
 > 
 > **Exemplo**:
 > 
-![Exemplo de Wireframe](images/mapa-empatia.png)
 
 
 # Metodologia
