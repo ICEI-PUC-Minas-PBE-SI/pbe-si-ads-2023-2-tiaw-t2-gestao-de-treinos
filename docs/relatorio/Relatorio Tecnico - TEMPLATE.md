@@ -131,7 +131,8 @@ Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando en
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+José da Silva tem 23 anos e deseja ter uma vida mais saudável praticando musculação 
+
 > **Persona 1 - José**
 > 
  ![Exemplo de Persona](images/persona1.png)
