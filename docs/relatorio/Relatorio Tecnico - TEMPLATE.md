@@ -149,14 +149,13 @@ José da Silva tem 23 anos e deseja ter uma vida mais saudável praticando muscu
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO...  `FUNCIONALIDADE`   |PARA...  `MOTIVO/VALOR`                       |
-|--------------------|--------------------------------------|----------------------------------------------|
-| Usuário do sistema | Personalizar meu treino              | Facilitar minha adesão a rotina              |
-|                    | Ver qual a utilidade do exercicio    | Saber qual musculo é trabalhado              |
-|                    | Anotar a carga utilizada no exercicio| Ter conhecimento da progressão de carga      |
-|                    | Ver a lista de exercicio da semana   | Saber o que treinar no dia atual e seguintes |
-|                    | Calcular os macros alimentares       | Saber a dieta a seguir e me alimentar melhor |
-
+|EU COMO... `PERSONA`| QUERO/PRECISO...  `FUNCIONALIDADE`          |PARA...  `MOTIVO/VALOR`                       |
+|--------------------|---------------------------------------------|----------------------------------------------|
+| Usuário do sistema | Ver como eu realizo o exercios              | Para que eu nao me lesione realizando        |
+|                    | Ver qual a utilidade do exercicio           | Saber qual musculo é trabalhado              |
+|                    | Descobri quantas calorias eu tenho comer    | Para montar minha propria dieta              |
+|                    | Calcular os macros alimentares              | Saber a dieta a seguir e me alimentar melhor |
+|                    | Vejo o exercicio para certo musculo         | Saber como treino aquele musculo             |
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
 > ferramenta poderosa para a compreensão e elicitação dos requisitos
@@ -175,10 +174,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|------------------------------------------------------------------|
-|RF-001| Permitir que o usuário escolha o musculo que deseja              | ALTA | 
-|RF-002| Permitir que o usuário descubra quantas calorias comer por dia   | MÉDIA |
-|RF-003| Permir que o usuário tenha uma aba para que monte seus treinos   | BAIXA |
+|------|--------------------------------------------------------------------|
+|RF-001| Permitir que o usuário escolha o musculo que deseja                | ALTA | 
+|RF-002| Permitir que o usuário descubra quantas calorias comer por dia     | MÉDIA |
+|RF-003| Permitir que o usuário tenha uma calculadora de macros alimentares | BAIXA |
+|RF-004| Permir que o usuário tenha uma aba para que monte seus treinos     | BAIXA |
 
 
 ### Requisitos não Funcionais
@@ -186,8 +186,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| Deve ser desenvolvido com Css, HTML, BootStrap e JavaScript       | ALTA | 
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
-|RNF-002| Deve ser intuitivo e de fácil acesso                              | MÉDIA | 
+|RNF-002| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
+|RNF-003| Deve ser intuitivo e de fácil acesso                              | MÉDIA |
+|RNF-004| Suporte a dispositivos IOS e Andriod                              | ALTA |
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
