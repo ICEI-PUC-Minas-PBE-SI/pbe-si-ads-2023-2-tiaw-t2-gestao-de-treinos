@@ -123,7 +123,9 @@ Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando en
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto consistirá em uma interfaçe agradavel, intuitiva e responsiva que será construida com html, css, bootstrap e javascript.
+Onde o usuario podera escolher qual agrupamento muscular deseja treinar e selecionara no site para ver como ira realizar exercicios para o musculo escolhido.
+Tendo tambem uma calculadora onde ajudará o usuário a entender quantas calorias ele consumirá por dia de acordo com seu objetivo.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -139,7 +141,7 @@ José da Silva tem 23 anos e deseja ter uma vida mais saudável praticando muscu
    **Mapa de Empatia - José**
 ![Mapa de Empatia](images/mapa-empatia.png)
 
-   **Mapa de Empatia - Maria**
+   **Persona 2 - Maria**
 ![Mapa de Empatia](images/persona2.png)
 
 
@@ -173,17 +175,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|------|------------------------------------------------------------------|
+|RF-001| Permitir que o usuário escolha o musculo que deseja              | ALTA | 
+|RF-002| Permitir que o usuário descubra quantas calorias comer por dia   | MÉDIA |
+|RF-003| Permir que o usuário tenha uma aba para que monte seus treinos   | BAIXA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Deve ser desenvolvido com Css, HTML, BootStrap e JavaScript       | ALTA | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
+|RNF-002| Deve ser intuitivo e de fácil acesso                              | MÉDIA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
