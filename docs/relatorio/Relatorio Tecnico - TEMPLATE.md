@@ -269,8 +269,8 @@ Musculos para escolher
 ![Exemplo de Wireframe](images/parteMusc.png)
 
 Quando a pessoa clicar em uma dessa opções sera direcionada para uma pagina parecida com essa
-![Exemplo de Wireframe](images/wireframe.png)
-![Exemplo de Wireframe](images/biceps.png)
+![Exemplo de Wireframe](images/wireframe1.png)
+![Exemplo de Wireframe](images/biceps1.png)
 
 
 Parte que conta um pouco sobre o site 
