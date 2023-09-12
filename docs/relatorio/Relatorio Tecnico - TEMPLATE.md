@@ -123,9 +123,9 @@ Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando en
  
 # Especificações do Projeto
 
-O projeto consistirá em uma interfaçe agradavel, intuitiva e responsiva que será construida com html, css, bootstrap e javascript.
-Onde o usuario podera escolher qual agrupamento muscular deseja treinar e selecionara no site para ver como ira realizar exercicios para o musculo escolhido.
-Tendo tambem uma calculadora onde ajudará o usuário a entender quantas calorias ele consumirá por dia de acordo com seu objetivo.
+O projeto consistirá em uma interface agradável, intuitiva e responsiva que será construída com HTML, CSS, Bootstrap e JavaScript. 
+O usuário poderá escolher qual agrupamento muscular deseja treinar e selecionará no site para ver como irá realizar exercícios para o músculo escolhido.
+Também haverá uma calculadora que ajudará o usuário a entender quantas calorias ele consumirá por dia de acordo com seu objetivo.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
