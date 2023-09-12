@@ -218,15 +218,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| Lesões e condições médicas: Atletas podem enfrentar lesões ou condições médicas que limitam sua capacidade de treinar ou requerem modificações no plano de treinamento. Uma análise de suas capacidades e limitações é uma consideração importante. |
-|02| Disponibilidade de pessoal qualificado: A disponibilidade de treinadores, fisioterapeutas, nutricionistas e outros profissionais de apoio pode ser uma restrição. A falta de pessoal qualificado pode afetar a qualidade do plano de treinamento e os cuidados com os atletas. |
-|03| Objetivos de longo prazo: O tempo disponível para alcançar determinados objetivos esportivos de longo prazo pode ser uma restrição. Alguns objetivos podem exigir anos de treinamento consistente.  |
-|04| Recursos humanos e capacidade de gestão: A capacidade de gerenciar e coordenar eficazmente todas as partes envolvidas no plano de treinamento, incluindo atletas, treinadores, pessoal de apoio e pais, pode ser uma restrição.  |
-|05| Nível de competência: O nível de competência dos atletas pode variar significativamente. Treinar atletas com diferentes níveis de habilidade pode ser desafiador, e um plano de treinamento deve ser adaptado para atender às necessidades individuais. |
-|06| Equipamento: A falta de equipamento adequado pode ser uma restrição. Isso pode incluir equipamentos de treinamento, como pesos, aparelhos de cardio, bolas esportivas, etc. A falta de acesso a equipamentos específicos pode limitar o desenvolvimento de habilidades e condicionamento.  |
-|07| Instalações: A disponibilidade e qualidade das instalações esportivas podem ser uma restrição. Instalações inadequadas podem limitar a variedade de exercícios e modalidades esportivas que podem ser incluídos no plano de treinamento.  |
-|08| Orçamento: Restrições financeiras podem limitar os recursos disponíveis para contratar treinadores, adquirir equipamentos, alugar instalações ou participar de competições. Um orçamento limitado pode afetar a qualidade e a abrangência do plano de treinamento.  |
-
+|01| O projeto deverá ser entregue até o final do semestre |
+|02| Não poderá ser desenvolvido back-end                  |
+|03| Será desenvolvido por no maximo 5 pessoas             |
+|04| Não tera custo para os usuários                       |
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
 > geralmente limitam a solução candidata.
