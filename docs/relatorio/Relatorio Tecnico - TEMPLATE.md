@@ -104,7 +104,7 @@ Apoiar as pessoas em sua busca por um estilo de vida mais saudável e ativo, fac
 
 ## Público-Alvo
 
-Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando entre 14 e 60 anos, que são frequentadores assíduos de academias.
+Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando entre 14 a 40 anos, que são frequentadores assíduos de academias.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
