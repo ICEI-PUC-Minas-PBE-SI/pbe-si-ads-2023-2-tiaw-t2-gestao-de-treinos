@@ -122,8 +122,7 @@ Nosso público-alvo abrange tanto homens quanto mulheres, com idades variando en
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
-
-O projeto consistirá em uma interface agradável, intuitiva e responsiva que será construída com HTML, CSS, Bootstrap e JavaScript. 
+O projeto consistirá em uma interface agradável, intuitiva e responsiva que será construída com HTML, CSS, Bootstrap e JavaScript.
 O usuário poderá escolher qual agrupamento muscular deseja treinar e selecionará no site para ver como irá realizar exercícios para o músculo escolhido.
 Também haverá uma calculadora que ajudará o usuário a entender quantas calorias ele consumirá por dia de acordo com seu objetivo.
 
