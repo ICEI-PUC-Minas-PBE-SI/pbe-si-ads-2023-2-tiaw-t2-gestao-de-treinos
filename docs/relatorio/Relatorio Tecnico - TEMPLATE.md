@@ -174,8 +174,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|--------------------------------------------------------------------|
-|RF-001| Permitir que o usuário escolha o musculo que deseja                | ALTA | 
+|------|-------------------------|------------------------------------------|
+|RF-001| Permitir que o usuário escolha o musculo que deseja                | ALTA |
 |RF-002| Permitir que o usuário descubra quantas calorias comer por dia     | MÉDIA |
 |RF-003| Permitir que o usuário tenha uma calculadora de macros alimentares | BAIXA |
 |RF-004| Permir que o usuário tenha uma aba para que monte seus treinos     | BAIXA |
