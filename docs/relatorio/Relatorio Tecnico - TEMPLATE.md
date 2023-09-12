@@ -9,13 +9,13 @@
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Os membros do grupo são: 
+- Allan Richard Nogueira Alves
+- Guilherme Henrique Brandão Bonifácio
+- Leandro Henrique dos Santos
+- Matheus Henrique dos Santos Alvim
+- Matheus Henrique Resende Magalhaes
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
 
 # Estrutura do Documento
 
