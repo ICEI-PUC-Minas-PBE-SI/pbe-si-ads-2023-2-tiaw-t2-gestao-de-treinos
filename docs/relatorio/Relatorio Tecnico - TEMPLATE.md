@@ -238,7 +238,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+A interface do projeto foi desenvolvida de forma funcional e que seja de simples visualização para o usuário, onde o mesmo ja consegue entender do que se trata o nosso site 
+a partir do momento que entra nele. Sendo uma interface auto-intuitiva e simples de mecher, podendo ser usada por qualquer pessoa sem necessidade de conhecimentos avançados
+na area da tecnologia.
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
