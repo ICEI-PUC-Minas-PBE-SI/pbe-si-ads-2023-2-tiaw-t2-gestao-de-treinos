@@ -144,6 +144,7 @@ José da Silva tem 23 anos e deseja ter uma vida mais saudável praticando muscu
 ![Mapa de Empatia](images/persona2.png)
 
    **Mapa de Empatia - Maria**
+   
 ![Mapa de Empatia](images/mapa-empatia2.jpg)
 
 
