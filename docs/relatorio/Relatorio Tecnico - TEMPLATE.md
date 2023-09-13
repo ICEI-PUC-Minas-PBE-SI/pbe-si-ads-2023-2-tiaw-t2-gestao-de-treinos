@@ -187,7 +187,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| Deve ser desenvolvido com Css, HTML, BootStrap e JavaScript       | ALTA | 
 |RNF-002| O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA | 
 |RNF-003| Deve ser intuitivo e de fácil acesso                              | MÉDIA |
-|RNF-004| Suporte a dispositivos IOS e Andriod                              | ALTA |
+|RNF-004| Suporte a dispositivos IOS e Android                              | ALTA |
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
