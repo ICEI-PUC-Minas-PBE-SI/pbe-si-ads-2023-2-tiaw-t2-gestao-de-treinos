@@ -75,7 +75,7 @@ A relação entre as pessoas e a academia nem sempre é direta e descomplicada. 
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
-Queremos oferecer uma solução que torne a jornada fitness mais fácil, motivadora e personalizada para cada usuário.
+Desenvolver um site de gestão de treinos para oferecer uma solução que torne a jornada fitness mais fácil, motivadora e personalizada para cada usuário.
 Com nossa aplicação, pretendemos transformar a maneira como as pessoas abordam o exercício físico, tornando-o mais conveniente, adaptado às suas necessidades individuais e, acima de tudo, sustentável. 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
