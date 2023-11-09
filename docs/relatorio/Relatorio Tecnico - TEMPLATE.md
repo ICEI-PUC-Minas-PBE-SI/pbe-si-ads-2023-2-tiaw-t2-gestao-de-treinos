@@ -11,6 +11,7 @@
 
  Os membros do grupo são: 
 - Allan Richard Nogueira Alves
+- Arthur Henrique Ribeiro Beiral
 - Guilherme Henrique Brandão Bonifácio
 - Leandro Henrique dos Santos
 - Matheus Henrique dos Santos Alvim
