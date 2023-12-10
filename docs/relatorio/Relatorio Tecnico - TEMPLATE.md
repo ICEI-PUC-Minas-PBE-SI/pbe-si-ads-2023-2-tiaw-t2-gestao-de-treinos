@@ -273,7 +273,7 @@ Parte que conta um pouco sobre o site
 
 # Metodologia
 
-O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágeis, Framework Scrum. A divisão de papéis e tarefas promoveu a autonomia dos membros, que se auto-organizaram para atingir os objetivos da sprint. Cada integrante do grupo ficou responsável por um requisito do sistem. O controle sobre o trabalho foi realizado ao final de cada sprint o grupo se reunia e cada um passava a parte que ficou responsavel, em um primeiro momento o protótipo de cada aplicação e depois o código em si de cada requisito.  
+O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágeis, Framework Scrum. A divisão de papéis e tarefas promoveu a autonomia dos membros, que se auto-organizam para atingir os objetivos da sprint. Cada integrante do grupo ficou responsável por um requisito do sistema. O controle sobre o trabalho foi realizado ao final de cada sprint o grupo se reunia e cada um passava a parte que ficou responsável, em um primeiro momento o protótipo de cada aplicação e depois o código em si de cada requisito.  
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
