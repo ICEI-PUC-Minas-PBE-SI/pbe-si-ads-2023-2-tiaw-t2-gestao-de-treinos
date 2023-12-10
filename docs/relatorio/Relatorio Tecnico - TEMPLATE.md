@@ -273,7 +273,7 @@ Parte que conta um pouco sobre o site
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágeis, Framework Scrum. A divisão de papéis e tarefas promoveu a autonomia dos membros, que se auto-organizaram para atingir os objetivos da sprint. Cada integrante do grupo ficou responsável por um requisito do sistem. O controle sobre o trabalho foi realizado ao final de cada sprint o grupo se reunia e cada um passava a parte que ficou responsavel, em um primeiro momento o protótipo de cada aplicação e depois o código em si de cada requisito.  
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -293,7 +293,14 @@ Parte que conta um pouco sobre o site
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+|                  Descrição do Requisito                            | Responsável|
+|-------------------------|------------------------------------------|
+| Permitir que o usuário escolha o músculo que deseja treinar e como | Matheus Resende|
+| Permitir que o usuário descubra quantas calorias comer por dia     | Guilherme Brandão|
+| Permitir que o usuário tenha uma calculadora de macros alimentares | Allan Nogueira|
+| Permitir que o usuário tenha uma aba para que monte seus treinos   | Leandro Henrique|
+| Possuir uma tela de login.                                         | Matheus Alvim|
+| Footer                                                             | Arthur|
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
