@@ -1,8 +1,8 @@
-# Nome do projeto
+# Gestão de Treinos
 Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
-
+https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/blob/master/README.md
 * Allan Richard Nogueira Alves
 * Guilherme Henrique Brandão Bonifácio
 * Leandro Henrique dos Santos
