@@ -424,7 +424,30 @@ O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágei
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Teste de Login:
+1.1 Credenciais Corretas:
+Insira um email e senha válidos.
+Verifique se o usuário é redirecionado para index.html.
+Certifique-se de que o email e senha estão salvos no localStorage se a opção "Lembre-se de mim" estiver marcada.
+
+1.2 Credenciais Incorretas:
+Insira um email ou senha incorretos.
+Verifique se uma mensagem de erro é exibida corretamente.
+Confirme que o usuário não é redirecionado.
+
+1.3 Registro de Novo Usuário:
+Clique no link "Inscrever-se".
+Insira informações válidas nos campos do formulário de registro.
+Verifique se o novo usuário é redirecionado para index.html.
+
+1.4Teste de Registro:
+Registro sem Preencher Todos os Campos:
+Tente enviar o formulário de registro sem preencher todos os campos.
+Certifique-se de que uma mensagem de erro apropriada seja exibida.
+
+1.5 Registro com Email Existente:
+Tente se registrar com um email que já exista no banco de dados.
+Verifique se uma mensagem de erro apropriada é exibida.
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -448,7 +471,12 @@ O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágei
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Login 
+1.1 Quando a senha e email estão corretas o usuario é redirecionado a Home Page, e a função lembre-se de mim, esta funcionado com a ajuda do LocalStorage.
+1.2 Quando a senha e email estão incorretas aparece uma mensagem avisando que as credenciais estao erradas. Possivel melhoria: Mensagem especificar quando o email estiver correto e a senha errada. Fazer isso através de uma verificação no banco de dados.
+1.3 Teste com sucesso também o usuario é cadastrado no banco de dados de JSONSERVER.
+1.4 O usuario não consegui se cadastrar sem preencher todos os campos. 
+1. 5 O email a aplicação não verifica se aquele email existe.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
