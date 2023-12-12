@@ -8,6 +8,7 @@ https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-tre
 * Leandro Henrique dos Santos
 * Matheus Henrique dos Santos Alvim
 * Matheus Henrique Resende Magalhaes
+* Arthur Henrique Ribeiro Beiral
 
 
 
