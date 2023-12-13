@@ -555,6 +555,8 @@ https://chat.openai.com/
 
 https://pt.stackoverflow.com/
 
+https://musclewiki.com/
+
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
