@@ -546,8 +546,13 @@ Testamos vários cenários para cada requisito e, ao encontrar erros, os corrigi
 # Referências
 
 https://www.w3schools.com
+
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+
 https://chat.openai.com/
+
+
 https://pt.stackoverflow.com/
 
 
