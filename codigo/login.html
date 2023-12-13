@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Academia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets\css\login_cadastro.css">
+</head>
+
+<body>
+    <div class="container-login">
+        <div class="img-box">
+            <img src="assets\img\login\sven-mieke-1MrMsNBcsYA-unsplash.jpg" alt="imagem-academia-login">
+        </div>
+        <div class="content-box">
+            <div class="form-box">
+                <h2 id="formTitle">Login</h2>
+                <div id="loginFormContainer">
+                    <form id="loginForm" onsubmit="validateForm(event)">
+                        <div class="input-box">
+                            <span>E-mail</span>
+                            <input type="email" id="email" placeholder="@gmail.com" required>
+                        </div>
+                        <div class="input-box">
+                            <span>Senha</span>
+                            <input type="password" id="password" placeholder="Senha" required>
+                        </div>
+                        <div class="remember">
+                            <label>
+                                <input type="checkbox" id="remember"> Lembre-se de mim
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" value="Entrar">
+                        </div>
+                        <div class="input-box">
+                            <p>Não tem uma conta? <a href="javascript:;"
+                                    onclick="showRegistrationForm()">Inscrever-se</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div id="registrationFormContainer" style="display: none;">
+                    <form id="registrationForm" onsubmit="registerUser(event)">
+                        <div class="input-box">
+                            <span>Nome completo:</span>
+                            <input type="text" id="fullName" required>
+                        </div>
+                        <div class="input-box">
+                            <span>Nome do usuário</span>
+                            <input type="text" id="username" required>
+                        </div>
+                        <div class="input-box">
+                            <span>E-mail</span>
+                            <input type="email" id="regEmail" required>
+                        </div>
+                        <div class="input-box">
+                            <span>Senha</span>
+                            <input type="password" id="regPassword" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" value="Cadastrar">
+                        </div>
+                        <div class="input-box">
+                            <p>Já tem uma conta? <a href="javascript:;" onclick="showLoginForm()">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // funcção de busca
+        const fetchData = async (url) => {
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        }
+
+        const dbUrl = 'https://json-login--matheusalvimori.repl.co/usuarios';
+        var userDataUrl = 'https://json-login--matheusalvimori.repl.co/userData/'
+
+        async function validateForm(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const response = await fetch(`${dbUrl}?email=${email}&senha=${password}`);
+            const userData = await response.json();
+
+            if (userData.length > 0) {
+                if (document.getElementById('remember').checked) {
+                    console.log('localStorage: ' + userData[0].id)
+                    localStorage.setItem('localSession', userData[0].id);
+                }
+                console.log('sessionStorage: ' + userData[0].id)
+                sessionStorage.setItem('localSession', userData[0].id);
+                window.location.href = 'index.html';
+            } else {
+                alert('Senha ou email errado');
+            }
+        }
+
+        async function registerUser(event) {
+            event.preventDefault();
+
+            const fullName = document.getElementById('fullName').value;
+            const username = document.getElementById('username').value;
+            const regEmail = document.getElementById('regEmail').value;
+            const regPassword = document.getElementById('regPassword').value;
+
+            const response = await fetchData(`${dbUrl}?email=${regEmail}`)
+
+            console.log(response)
+
+            if (response.length >= 1) {
+                alert('email já cadastrado')
+                return;
+            }
+
+            const newUser = {
+                nome: fullName,
+                username: username,
+                senha: regPassword,
+                email: regEmail,
+                img: ""
+            };
+
+            await fetch(dbUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(newUser)
+            }).then(response => response.json())
+                .then(async data => {
+                    sessionStorage.setItem('localSession', data.id)
+
+                    await fetch(userDataUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            allExercises: [],
+                            diasDeDescanso: [],
+                            id: data.id
+                        })
+                    })
+
+                    window.location.href = 'index.html';
+                });
+        }
+
+        function showRegistrationForm() {
+            document.getElementById('loginFormContainer').style.display = 'none';
+            document.getElementById('registrationFormContainer').style.display = 'block';
+            document.getElementById('formTitle').innerText = 'Inscrever-se';
+        }
+
+        function showLoginForm() {
+            document.getElementById('registrationFormContainer').style.display = 'none';
+            document.getElementById('loginFormContainer').style.display = 'block';
+            document.getElementById('formTitle').innerText = 'Login';
+        }
+
+        const savedEmail = localStorage.getItem('savedEmail');
+        const savedPassword = localStorage.getItem('savedPassword');
+
+        if (savedEmail && savedPassword) {
+            document.getElementById('email').value = savedEmail;
+            document.getElementById('password').value = savedPassword;
+        }
+    </script>
+</body>
+
+</html>

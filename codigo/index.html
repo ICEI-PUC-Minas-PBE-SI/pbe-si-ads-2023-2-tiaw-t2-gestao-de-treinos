@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/05f78a7b12.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="assets\css\navbar.css">
+    <link rel="stylesheet" href="assets\css\rodape.css">
+</head>
+
+<body>
+    <div class="d-flex flex-row" id="root">
+        <header class="d-md-block d-none">
+            <nav id="sidebar"
+                class="navbar h-100 bg-secondary d-flex flex-column align-items-center justify-content-between align-items-start p-0">
+                <div class="d-flex pb-5 flex-column justify-content-center align-items-between mt-5" id="daddyList">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-5 align-items-center justify-content-between">
+                        <div>
+                            <li
+                                class="nav-item active d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem">
+                                <a href="index.html">
+                                    <i class="fa-solid fa-house fa-xl ps-1 pe-1"></i>
+                                    <span class="nav-text d-none">Início</span></a>
+                            </li>
+                            <li class="nav-item d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem"
+                                id="exercicio d-flex flex-row justify-content-betweens">
+                                <a href="verTreino.html">
+                                    <i class="fa-solid fa-dumbbell fa-xl ps-1 pe-1"></i>
+                                    <span class="nav-text d-none">Exercícios</span>
+                                </a>
+                            </li>
+                            <li class="nav-item d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem"
+                                id="calculadora" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas"
+                                aria-controls="sidebarOffcanvas">
+                                <div class="d-flex no-wrap">
+                                    <div>
+                                        <i class="fa-solid fa-calculator fa-xl ps-1 pe-2"></i>
+                                    </div>
+                                    <div class="nav-text d-none d-inline-block">
+                                        <span class="">
+                                            Calculadora
+                                            <i class="fa-solid fa-caret-down icon" id="arrow"></i>
+                                        </span>
+                                        <ul>
+                                            <li class="border rounded m-1 calc-item"><a
+                                                    href="calculadora_calorias.html">Calorias</a></li>
+                                            <li class="border rounded m-1 calc-item active"><a
+                                                    href="macronutrientes.html">Macros</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="login loginSideBar nav-item d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem"
+                data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas">
+                    <a href="login.html"><img src="assets\img\login.png" alt="" class="" width="35px"></a>
+                </div>
+            </nav>
+        </header>
+        <div class="flex-grow-1">
+            <nav class="navbar navbar-expand-lg bg-light" id="topbar">
+                <div class="container-fluid justify-content-between p-0">
+                    <div class=" d-flex justify-content-center">
+                        <input type="checkbox" class="d-none" id="open" />
+                        <label for="open" class="d-none d-md-flex">
+                            <div class="btn me-1" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas"
+                                aria-controls="sidebarOffcanvas">
+                                <i class="fa-solid fa-bars fa-xl mb-3 mt-3"></i>
+                            </div>
+                        </label>
+                        <a class="navbar-brand ms-2" href="#">
+                            <img src="assets\img\icon.png" alt="Logo" width="30" height="24"
+                                class="d-inline-block align-text-top">
+                            GymWorkTable
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-sm-block d-md-none border rounded">
+                            <li class="nav-item  active">
+                                <a class="nav-link" aria-current="page" href="index.html"><i
+                                        class="fa-solid fa-house fa-xl ps-1 pe-1"></i>Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="verTreino.html"><i
+                                        class="fa-solid fa-dumbbell fa-xl ps-1 pe-1"></i>Exercícios</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-solid fa-calculator fa-xl ps-1 pe-1"></i>Calculadora
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item calc-item border rounded"
+                                            href="calculadora_calorias.html">Calorias</a></li>
+                                    <li><a class="dropdown-item calc-item border rounded"
+                                            href="macronutrientes.html">Macros</a></li>
+                                </ul>
+                            </li>
+                            <li class="login loginUpBar nav-item dropdown p-1">
+                                <a href="login.html"><img src="assets\img\login.png" alt="" class="rounded me-1" width="35px">Login</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary " type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="mt-3 content mb-3 pt-5">
+                <div class="container">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active">
+                                <a href="verTreino.html"><img src="assets/img/carrosel/teste2.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Monte seu treino!</h5>
+                                    <p>Construa sua propria ficha de treinos com os exercicios de sua escolha</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="calculadora_calorias.html"><img src="assets/img/carrosel/1008249.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Calculadora de Calorias</h5>
+                                    <p>Clique e conheça nossa calculadora de calorias</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="macronutrientes.html"><img src="assets/img/carrosel/costass.jpg" class="d-block w-100" alt="..."></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Calculadora de macros</h5>
+                                    <p>Clique e conheça nossa calculadora de macros</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+                    <div class="row mt-3">
+                        <h1>Músculos Frontais</h1>
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/trapezio.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Frente/trapezio.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Trapézio</h5>
+                                        <p class="card-text">Melhores exercicios para o trapézio</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/peito.html" target="" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Frente/Peito.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Peitoral</h5>
+                                        <p class="card-text">Melhores exercicios para o peitoral</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/ombro.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Frente/ombro.png" class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <h5 class="card-title text-center">Ombros</h5>
+                                        <p class="card-text">Melhores exercicios para o ombro</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/biceps.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Frente/biiceps.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Bíceps</h5>
+                                        <p class="card-text">Melhores exercicios para o bíceps</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-3 mt-3">
+                            <div class="card">
+                                <a href="musculosHTML/antebraço.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Frente/antebraço.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Antebraço</h5>
+                                        <p class="card-text">Melhores exercicios para o antebraço</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3">
+                            <div class="card">
+                                <a href="musculosHTML/abdomen.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Frente/abdomen.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Abdômen</h5>
+                                        <p class="card-text">Melhores exercicios para o abdômen</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3">
+                            <div class="card">
+                                <a href="musculosHTML/quadriceps.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Frente/quadríceps.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Quadríceps</h5>
+                                        <p class="card-text">Melhores exercicios para o quadríceps</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <h1 class="mt-3">Músculos Traseiros</h1>
+
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/ombroP.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/ombroPosterior.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Posterior de Ombros</h5>
+                                        <p class="card-text">Melhores exercicios para o posterior de ombro</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/triceps.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/Tríceps.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Tríceps</h5>
+                                        <p class="card-text">Melhores exercicios para o tríceps</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/costasM.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/CostasMedias.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Costas Médias</h5>
+                                        <p class="card-text">Melhores exercicios para as costas médias</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <a href="musculosHTML/laticimo.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/Laticimos.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Laticímo</h5>
+                                        <p class="card-text">Melhores exercicios para o latícimo</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3">
+                            <div class="card">
+                                <a href="musculosHTML/lombar.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/Lombar.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Lombar</h5>
+                                        <p class="card-text">Melhores exercicios para a lombar</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3">
+                            <div class="card">
+                                <a href="musculosHTML/glueto.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/Gluteo.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Glúteo</h5>
+                                        <p class="card-text">Melhores exercicios para o glúteo</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3">
+                            <div class="card">
+                                <a href="musculosHTML/posterior.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/Posterior.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Posterior de Coxa</h5>
+                                        <p class="card-text">Melhores exercicios para o posterior de Coxa</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-3 mt-3">
+                            <div class="card">
+                                <a href="musculosHTML/panturrilha.html" target="_blank" rel="noopener noreferrer"
+                                    class="text-decoration-none text-black">
+                                    <img src="assets/img/musculos Costas/panturrilha.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Panturrilha</h5>
+                                        <p class="card-text">Melhores exercicios para o peito</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer mt-3 bg-primary">
+                    <div class="contato">
+                        
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>info@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="sociais">
+                        <a class="git"
+                            href="https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos"><i
+                                class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                    <div class="final d-flex justify-content-center m-0">
+                        <p class="m-0">Copyright © 2023</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarOffcanvas" aria-labelledby="sidebarOffcanvasLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand offcanvas-title" href="#" id="sidebarOffcanvasLabel">
+                <img src="assets\img\icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                GymWorkTable
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body m-0 p-0 bg-secondary">
+            <div
+                class="ms-3 navbar h-100 d-flex flex-column align-items-start justify-content-between p-0">
+                <div class="d-flex pb-5 flex-column justify-content-start align-items-start mt-5" id="daddyList">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li
+                            class="nav-item active d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem">
+                            <a href="index.html">
+                                <i class="fa-solid fa-house fa-xl ps-1 pe-1"></i>
+                                <span class="nav-text">Início</span></a>
+                        </li>
+                        <li class="nav-item d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem"
+                            id="exercicio d-flex flex-row justify-content-betweens">
+                            <a href="verTreino.html">
+                                <i class="fa-solid fa-dumbbell fa-xl ps-1 pe-1"></i>
+                                <span class="nav-text">Exercícios</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem"
+                            id="calculadora">
+                            <div class="d-flex no-wrap">
+                                <div>
+                                    <i class="fa-solid fa-calculator fa-xl ps-1 pe-2"></i>
+                                </div>
+                                <div class="nav-text d-inline-block">
+                                    <span class="">
+                                        Calculadora
+                                        <i class="fa-solid fa-caret-down icon" id="arrow"></i>
+                                    </span>
+                                    <ul>
+                                        <li class="border rounded m-1 calc-item"><a
+                                                href="calculadora_calorias.html">Calorias</a></li>
+                                        <li class="border rounded m-1 calc-item"><a
+                                                href="macronutrientes.html">Macros</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="login loginOffCanvas nav-item d-block border rounded p-1 m-1 mb-3 menu-item justify-content-center sideItem">
+                    <a href="login.html" class="me-5" ><img src="assets\img\login.png" alt="" class="" width="35px"><span class="ps-1">Login</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets\js\navbar.js"></script>
+</body>
+
+</html>
