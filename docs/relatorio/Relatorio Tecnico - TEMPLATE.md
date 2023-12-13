@@ -317,7 +317,7 @@ Para desenvolver o projeto usamos o Replit tanto como banco de dados como para h
 |-----------|-------------------------|---------------|
 |Hospedagem Dando de Dados|  Replit |https://replit.com/@matheusalvimori/JSON-Login| 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/tree/master/codigo | 
-|Hospedagem do site | Replit | https://replit.com/@LeandroHenriq42/Academia |
+|Hospedagem do site | Replit | [https://replit.com/@LeandroHenriq42/aaaa |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
