@@ -545,7 +545,11 @@ Testamos vários cenários para cada requisito e, ao encontrar erros, os corrigi
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+https://www.w3schools.com
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://chat.openai.com/
+https://pt.stackoverflow.com/
+
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
