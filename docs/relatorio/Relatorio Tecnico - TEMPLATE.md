@@ -344,7 +344,20 @@ Para desenvolver o projeto usamos o Replit tanto como banco de dados como para h
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Controle de Versão no Desenvolvimento do Site de Gestão de Treinos para Academia
+O desenvolvimento do nosso site de gestão de treinos para academia foi guiado por uma abordagem robusta de controle de versão, utilizando principalmente o sistema Git. Aqui está um resumo conciso do processo:
+Inicialização do Repositório:
+O projeto começou com a inicialização de um repositório Replit para armazenar o código-fonte e os recursos do site.
+
+Colaboração Eficiente:
+A equipe dividiu o trabalho em ramos (branches) para que os membros pudessem trabalhar simultaneamente em diferentes funcionalidades sem interferências.
+
+Commits Regulares:
+Realizamos commits regulares à medida que desenvolvíamos novos recursos ou corrigíamos problemas. Cada commit foi acompanhado por uma mensagem significativa que descrevia as alterações realizadas..
+
+Ferramentas Utilizadas:
+
+Replit foi a principal ferramenta de controle de versão.
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
