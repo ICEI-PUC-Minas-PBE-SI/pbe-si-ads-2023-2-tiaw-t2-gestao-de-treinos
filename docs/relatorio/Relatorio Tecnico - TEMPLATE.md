@@ -516,29 +516,45 @@ Verifique se uma mensagem de erro apropriada é exibida.
 ## Registros de Testes
 
 Login 
+
 1
+
 ![CT01](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/9f7b8f46-54ce-492e-8642-42bfd84c44a3)
+
 1.1
+
 ![imgct01](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/0c7978cf-cefc-4480-ae4e-54be0ab569ae)
 
 2
+
 ![CT02](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/c0db655a-65f3-469f-860d-f3cfe666d02b)
+
 2.1
+
 ![imgct02](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/8936f99c-5374-4814-a0be-ec971e8f9c28)
 
 3
+
 ![CT03](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/7ff6383d-41db-4a44-b278-a70279451f51)
+
 3.1
+
 ![imgct03](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/a67f8dc0-e54a-4cfa-9167-ed8529838409)
 
 4
+
 ![CT04](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/deb4f236-ee51-4fae-8399-ce394f2daab4)
+
 4.1
+
 ![imgct04](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/63b2581d-6155-45bc-9de6-349b4b6cf414)
 
 5
+
 ![CT05](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/af787d8a-e17d-497c-8742-a566b4c091c8)
+
 5.1
+
 ![imgct05](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/142936348/a933fd64-f1a3-42d3-9b34-e7acb4ac0948)
 
 
