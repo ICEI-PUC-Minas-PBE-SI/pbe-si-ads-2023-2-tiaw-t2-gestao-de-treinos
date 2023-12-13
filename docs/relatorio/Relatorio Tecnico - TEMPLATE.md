@@ -460,8 +460,7 @@ A pagina web foi construida com HTML, CSS E Js. Usamos nela como back-end o loca
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
+Testamos vários cenários para cada requisito e, ao encontrar erros, os corrigimos, registrando alguns cenários mais curiosos e importantes. Eles estão apresentados nos tópicos abaixo.
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
 > sendo satisfeitos.
