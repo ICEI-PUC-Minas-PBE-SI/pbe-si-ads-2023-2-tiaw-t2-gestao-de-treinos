@@ -431,7 +431,8 @@ Serviços WEB: Replit
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+A pagina web foi construida com HTML, CSS E Js. Usamos nela como back-end o local storage e um banco de dados no Replit. E também hospedamos o código no Replit.
+![Gestaso de treinos drawio](https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/assets/132620854/249755c3-ff74-4cd0-ad57-fbdfa086f774)
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
