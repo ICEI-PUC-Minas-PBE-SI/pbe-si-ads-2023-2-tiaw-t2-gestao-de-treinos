@@ -1,0 +1,20 @@
+.weekDay:hover {
+    flex-grow: 5px;
+    border-radius: 5px;
+    background-color: rgb(202, 202, 202);
+}
+
+.today {
+    background-color: rgb(226, 226, 226);
+    font-size: large;
+    font-weight: 500;
+}
+
+#bodyPart {
+    background-color: azure;
+}
+
+#treinoDia {
+    min-height: 65vh;
+}
+

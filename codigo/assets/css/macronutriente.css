@@ -1,0 +1,46 @@
+.macronutriente.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .macronutriente label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .macronutriente input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .macronutriente button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .macronutriente button:hover {
+    background-color: #2980b9;
+  }
+
+  .macronutriente #result {
+    margin-top: 10px;
+  }
+
+  .macronutriente #result ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .macronutriente #result li {
+    margin-bottom: 10px;
+  }

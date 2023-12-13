@@ -1,0 +1,57 @@
+footer {
+    background-color: antiquewhite;
+    width: 100%;
+    justify-content: center;
+}
+
+footer .sociais {
+    justify-content: center;
+    display: flex;
+}
+
+footer .facebook{
+    color: rgb(30, 48, 80);
+}
+
+footer .x{
+color: black;
+}
+
+footer .linkedin{
+color: rgb(0, 132, 255);
+}
+
+
+footer .sociais i {
+    border: 1px;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .endereco {
+    text-align: center;
+    padding: 0 5px 5px 5px;
+    font-size: 1.3rem;
+
+}
+
+footer .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+footer .numero,
+footer .email {
+    padding: 15px 15px;
+}
+
+footer .final {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(112, 187, 216);
+    font-size: 1.2rem;
+}

@@ -1,0 +1,44 @@
+.container .calculadora-calorias {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculadora-calorias label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.calculadora-calorias input[type="text"],
+.calculadora-calorias input[type="number"],
+.calculadora-calorias select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculadora-calorias button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculadora-calorias button:hover {
+    background-color: #2980b9;
+}
+
+.calculadora-calorias #result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#calorieForm {
+    margin-bottom: 25px;
+}
