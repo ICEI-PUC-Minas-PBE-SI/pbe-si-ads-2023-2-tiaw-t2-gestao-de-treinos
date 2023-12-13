@@ -311,14 +311,13 @@ O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágei
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Para desenvolver o projeto usamos o Replit tanto como banco de dados como para hospedar o site. Optamos por usa-lo pois foi ele que foi passado nas aulas de DIW, então tinhamos uma facilidade maior em ta desenvolvendo as tarefas nele.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Hospedagem Dando de Dados|  Replit |https://replit.com/@matheusalvimori/JSON-Login| 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PBE-SI/pbe-si-ads-2023-2-tiaw-t2-gestao-de-treinos/tree/master/codigo | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Hospedagem do site | Replit | https://replit.com/@LeandroHenriq42/Academia |
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
@@ -383,11 +382,39 @@ O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágei
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nome do Projeto: Gestão de Treinos
+É um site dedicado à gestão abrangente de treinos e nutrição para academias. Ele oferece uma interface intuitiva e funcionalidades específicas para que os usuários possam criar, visualizar e monitorar seus treinos, calcular macronutrientes e sua calorias.
+
+Funcionalidades Principais:
+Aba de Treinos:
+
+Criar, editar e excluir treinos personalizados.
+Adicionar exercícios com detalhes como séries, repetições, carga.
+Visualização gráfica do progresso ao longo do tempo.
+Calendário.
+
+Calculadora de Macronutrientes:
+Cálculo automático de proteínas, carboidratos e gorduras com base nos objetivos do usuário.
+
+Calculadora de Calorias:
+Informa quanto de calorias o usuário tem que consumir por dia.
+
+Benefícios Esperados:
+
+Facilitação na organização e acompanhamento dos treinos.
+Auxílio na manutenção de uma dieta balanceada.
+Motivação através do acompanhamento de resultados e progressos.
+Melhoria na experiência do usuário através de uma interface amigável e intuitiva.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Linguagem: JavaScript
+Linguagem de marcação de texto: HTML
+Estilização da página: CSS
+IDE: Visual Studio Code
+Frameworks: Bootstrap
+Biblioteca: jQuery
+Serviços WEB: Replit
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
