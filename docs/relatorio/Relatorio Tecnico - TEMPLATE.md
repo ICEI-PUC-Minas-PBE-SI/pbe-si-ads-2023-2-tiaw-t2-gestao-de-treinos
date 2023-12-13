@@ -295,10 +295,10 @@ O processo de trabalho adotado pelo grupo foi fundamentado em metodologias ágei
 
 |                  Descrição do Requisito                            | Responsável|
 |-------------------------|------------------------------------------|
-| Permitir que o usuário escolha o músculo que deseja treinar e como | Matheus Resende|
+| Permitir que o usuário escolha o músculo que deseja treinar e como | Leandro Henrique|
 | Permitir que o usuário descubra quantas calorias comer por dia     | Guilherme Brandão|
 | Permitir que o usuário tenha uma calculadora de macros alimentares | Allan Nogueira|
-| Permitir que o usuário tenha uma aba para que monte seus treinos   | Leandro Henrique|
+| Permitir que o usuário tenha uma aba para que monte seus treinos   | Matheus Rezende|
 | Possuir uma tela de login.                                         | Matheus Alvim|
 | Footer                                                             | Arthur|
 
